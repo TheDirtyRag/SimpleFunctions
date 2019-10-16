@@ -3,14 +3,16 @@ Bloomberg Functions Simplified
 
 Hello, thank you for downloading Simple Functions for Bloomberg 
 
-This Add-in is made to simplify and save time from looking up the Bloomberg mnemonics and instead creating functions that directly references the values
+This Add-in is made to simplify and save time from looking up the Bloomberg mnemonics and instead creating functions that directly references the values.
 
 Right now Simple Functions includes major Bank Ratios, Insurance Metrics, and some general metrics. 
 
 To receive the data, you will also need the Bloomberg Excel Add-in as this Add-in is a depedent on it for retrieving the data. 
 
 However, there is a intergrated backup program in the Add-in that allows for error wrapping with the correct values for a given function. 
-This means that you only need to retrieve the values once, after that, the values are saved to the Excel spreadsheet that is called "Backup"
+
+This means that you only need to retrieve the values once, after that, the values are saved to the last worksheet created. So make sure to create a blank Worksheet before you run the program, call it "Backup" or such. 
+
 The Simple Functions are then wrapped with a IFERROR statement that preserves the values within your tables.
 
 
@@ -38,10 +40,10 @@ OR
 Some key steps to allow this backup program to work.
 
 0. Always save before you run any program.
-1. You must have your backup sheet stored at the END of your Workbook, if you have another spreadsheet at the end of the workbook, please move from the end, or your values WILL be overran
+1. You must have your backup sheet stored at the END of your Workbook, if you have another spreadsheet at the end of the workbook, please move from the end, or your values WILL be overwritten.
 2. Your tables must be exactly the same size for each worksheet (Making it so that doesn't need to be, will come later.)
 3. Your tables must at least be two columns and two rows across.
-4. Once the program runs the values are stored in IFERROR forumlas, that means you switch your worksheets around (just make sure that your backup sheet is at the end)
+4. Once the program runs the values are stored in IFERROR forumlas, that means you can switch your worksheets around (just make sure that your backup sheet is at the end)
 
 Further Documentation on the Functions
 
