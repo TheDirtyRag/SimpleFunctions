@@ -25,7 +25,7 @@ To install
 
 To activate the backup program you have 2 options.
 1. Press ALT-F8
-2. Input box type backupvalues and press run
+2. In the input box type "backupvalues" (without quotes) and press run
 
 OR
 
@@ -39,7 +39,7 @@ OR
 
 Some key steps to allow this backup program to work.
 
-0. Always save before you run any program.
+0. Always save before you run any program. You cannot undo Macros. 
 1. You must have your backup sheet stored at the END of your Workbook, if you have another spreadsheet at the end of the workbook, please move from the end, or your values WILL be overwritten.
 2. Your tables must be exactly the same size for each worksheet (Making it so that doesn't need to be, will come later.)
 3. Your tables must at least be two columns and two rows across.
