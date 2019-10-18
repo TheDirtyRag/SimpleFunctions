@@ -1,7 +1,6 @@
 # SimpleFunctions
 Bloomberg Functions Simplified
 
-Hello, thank you for downloading Simple Functions for Bloomberg 
 
 This Add-in is made to simplify and save time from looking up the Bloomberg mnemonics and instead creating functions that directly references the values.
 
@@ -39,11 +38,8 @@ OR
 
 Some key steps to allow this backup program to work.
 
-0. Always save before you run any program. You cannot undo Macros. 
-1. You must have your backup sheet stored at the END of your Workbook, if you have another spreadsheet at the end of the workbook, please move from the end, or your values WILL be overwritten.
-2. Your tables must be exactly the same size for each worksheet (Making it so that doesn't need to be, will come later.)
-3. Your tables must at least be two columns and two rows across.
-4. Once the program runs the values are stored in IFERROR forumlas, that means you can switch your worksheets around (just make sure that your backup sheet is at the end)
+1. Always save before you run any program. You cannot undo Macros. 
+2. Make sure that your tables are well formatted throughout your spreadsheets. If data starts on cell "A1" then makesure that all your data starts on cell "A1" or it might be missed. 
 
 Further Documentation on the Functions
 
