@@ -108,3 +108,59 @@ Returns the Tier One Capital Ratio for the year
 
 TierOneLeverageRatio(Equity, Year) 
 Returns the Tier One Leverage Ratio for the year 
+
+ShortTermDebt(Equity As String, Year As String)
+
+LongTermDebt(Equity, Year)
+
+Intangibles(Equity, Year)
+
+Goodwill(Equity, Year)
+
+Accounts_Receivable(Equity, Year)
+
+Employees(Equity, Year)
+
+ReturnOnTangibleAssets(Equity, Year)
+
+Locations(Equity, Year)
+
+OperatingIncome(Equity, Year)
+
+EPS(Equity, Year)
+
+NetInterestExpense(Equity, Year)
+
+EBIT(Equity, Year)
+
+TotalEquity(Equity, Year)
+
+FreeCashFlow(Equity, Year)
+
+DividendsPerShare(Equity, Year)
+
+OperatingMargin(Equity, Year)
+
+SalesGrowth(Equity, Year)
+
+EffectiveTaxRate(Equity, Year)
+
+DebtToAssets(Equity, Year)
+
+DebtToEquity(Equity, Year)
+
+CurrentRatio(Equity, Year)
+
+InventoryTurnover(Equity, Year)
+
+RetentionRatio(Equity, Year)
+
+AssetTurnover(Equity, Year)
+
+InventoryDays(Equity, Year)
+
+TotalDebt(Equity, Year)
+
+PayableTurnoverDays(Equity, Year)
+
+ESGScore(Equity, Year)
