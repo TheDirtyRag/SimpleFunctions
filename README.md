@@ -43,73 +43,95 @@ Some key steps to allow this backup program to work.
 
 Further Documentation on the Functions
 
-ClaimsSettlementRatio(Equity, Year) 
+ClaimsSettlementRatio(Equity, Year)
+
 Returns the Claims Settlement Ratio for the year 
 
 CombinedRatio(Equity, Year) 
+
 Returns the Combined Ratio for the year
 
 CurrentLiquidity(Equity, Year) 
+
 Returns the Current Liquidity for the year 
 
 InsuranceMargin(Equity, Year) 
+
 Returns the Insurance Margin for the year 
 
 InterestIncomeRatio(Equity, Year) 
+
 Returns the Interest Income Ratio for the year 
 
 InterestSpread(Equity, Year) 
+
 Returns the Interest Spread for the year
 
 InvestmentYield(Equity, Year) 
+
 Returns the Investment Yield for the year 
 
-LiquidAssetsToReserves(Equity, Year) 
+LiquidAssetsToReserves(Equity, Year)
+
 Returns the Liquid Assets to Reserves ratio for the year 
 
 LoanToDepositRatio(Equity, Year) 
+
 Returns the Loan To Deposit Ratio for the year 
 
 Net_Income(Equity, Year) 
+
 Returns the Net Income for the selected year 
 
-NetChargeoffRatio(Equity, Year) 
+NetChargeoffRatio(Equity, Year)
+
 Returns the Net Charge Off Ratio for the year 
 
-NetInterestMargin(Equity, Year) 
+NetInterestMargin(Equity, Year)
+
 Returns the net interest margin for the year 
 
-NonInterestIncomeRatio(Equity, Year) 
+NonInterestIncomeRatio(Equity, Year)
+
 Returns the Non-Interest Income Ratio for the year 
 
-OverheadRatio(Equity, Year) 
+OverheadRatio(Equity, Year)
+
 Returns the Overhead Ratio for the year 
 
-PremiumGrowth(Equity, Year) 
+PremiumGrowth(Equity, Year)
+
 Returns the year over year Premium Growth  
 
 Profit_Margin(Equity, Year)  
+
 Returns the Profit-Margin for the selected year 
 
 ReturnOnAssets(Equity, Year) 
+
 Returns the Return on Assets for the year 
 
 ReturnOnEquity(Equity, Year) 
+
 Returns the Return on Equity for the year 
 
 SolvencyRatio(Equity, Year) 
+
 Returns the Solvency Ratio for the year 
 
 TierOneCapital(Equity, Year) 
+
 Returns the Tier One capital for the year 
 
 TierOneCapitalRatio(Equity, Year) 
+
 Returns the Tier One Capital Ratio for the year 
 
 TierOneLeverageRatio(Equity, Year) 
+
 Returns the Tier One Leverage Ratio for the year 
 
-ShortTermDebt(Equity As String, Year As String)
+ShortTermDebt(Equity, Year)
 
 LongTermDebt(Equity, Year)
 
