@@ -41,7 +41,7 @@ Some key steps to allow this backup program to work.
 1. Always save before you run any program. You cannot undo Macros. 
 2. Make sure that your tables are well formatted throughout your spreadsheets. If data starts on cell "A1" then makesure that all your data starts on cell "A1" or it might be missed. 
 
-Further Documentation on the Functions
+# Further Documentation on the Functions
 
 ClaimsSettlementRatio(Equity, Year)
 
@@ -126,6 +126,8 @@ Returns the Tier One capital for the year
 TierOneCapitalRatio(Equity, Year) 
 
 Returns the Tier One Capital Ratio for the year 
+
+# 0.2.2 Functions
 
 TierOneLeverageRatio(Equity, Year) 
 
