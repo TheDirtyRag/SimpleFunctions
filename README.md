@@ -188,3 +188,21 @@ TotalDebt(Equity, Year)
 PayableTurnoverDays(Equity, Year)
 
 ESGScore(Equity, Year)
+
+# 0.2.3 Functions
+
+CashConversionCycle(Equity, Year)
+
+DilutedEPS(Equity, Year)
+
+PreTaxIncome(Equity, Year)
+
+ResearchandDevelopmentExpense(Equity, Year)
+
+CurrentTaxExpense(Equity, Year)
+
+AverageSalesperLocation(Equity, Year)
+
+NetChargeOffs(Equity, Year)
+
+TotalCommonEquitytoRiskWeightedAssets(Equity, Year)
